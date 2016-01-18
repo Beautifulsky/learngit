@@ -1,0 +1,6 @@
+1.在你需要使用的目录下使用命令git init即可初始化一个git 仓库！
+2每次提交给git仓库是一个文件的版本，我们可以通过git log查看提交记录，（我推荐把git log --pretty=oneline用git log --pr代替，下次就不用输太多了）然后用git reset --hard 提交的id号，就可以去到你想去的版本。
+3.仓库里一个暂存区和分支，就是用git add 把我们在工作区里面的文件提交到暂存区里面去，然后用git commit 提交到分支，只有在这两步都做了后才能在你的github上看到文件
+4git clone github@github.com:Beautifulsky/bootstrap 就可以把在github上的文件克隆到你的本地库上
+5
+6git stash 把当所做的内容暂存，然后git stash pop恢复
