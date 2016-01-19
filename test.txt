@@ -4,3 +4,12 @@
 4git clone github@github.com:Beautifulsky/bootstrap 就可以把在github上的文件克隆到你的本地库上
 5
 6git stash 把当所做的内容暂存，然后git stash pop恢复
+7.git status 查看状态 git log查看提交记录
+8git push -u origin master
+9如果没有提交到暂存区用git checkout -- 文件名，撤销在工作区的修改，若提交了，则利用版本回退到原来未修改前的状态。
+10同上
+11git pull 是取回远程主机某个分支的更新，在与本地的指定分支合并
+12git checkout -b 分支名
+13git branch -d 分支名
+14git checkout master 转换到master下，然后git merge 合并的分支名
+15文件合并时发生冲突时，用cat 文件名会看到把合并时不同的地方用符号标示了出来，然后根据实际情况在处理
